@@ -11,5 +11,6 @@ Router.post('/delete', Controller.delete)
 
 Router.post('/list_banjir', Controller.listBanjir)
 Router.post('/set_banjir', Controller.setBanjir)
+Router.post('/set_banjir_json', Controller.setBanjirJSON)
 
 module.exports = Router

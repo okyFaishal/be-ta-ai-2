@@ -10,7 +10,7 @@ const area_banjir = sq.define("area_banjir", {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  level_area_banjir: {
+  level_area_banjir: { // 1 = red, 2 = yellow, 3 = green
     type: DataTypes.INTEGER,
     allowNull: false,
   },

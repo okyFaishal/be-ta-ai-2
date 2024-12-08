@@ -119,18 +119,12 @@ class RutePerjalanan{
         });
     
         python.on('close', (code) => {
-          // console.log('result', result)
           if (code === 0) {
-            // console.log("result", result)
-            // next([200, 'success', {data: JSON.parse(result.replace("'", '"'))}])
             next([200, 'success', {data: result}])
-            // res.json(JSON.parse(result));
           } else {
             next([500, 'Python script failed'])
-            // res.status(500).send('Python script failed');
           }
         });
-        // console.log('rutes', rutes)
       }else{
         next([500, 'Masukkan tanggal'])
       }

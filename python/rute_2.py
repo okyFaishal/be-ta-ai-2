@@ -97,11 +97,6 @@ rute_jalan = data['direktoriRute']
 with open(rute_jalan, 'r') as file:
     rute_jalan = json.load(file) 
 dataRute = rute_jalan
-# print(f"dataRute: {dataRute}")
-# Load data dari Google Drive
-# file_path = "/content/drive/My Drive/USM/Kecerdasan Buatan/tugas akhir/data-rute-1.json"
-# with open(file_path, 'r') as file:
-#     dataRute = json.load(file)
 
 # Input koordinat asal dan tujuan
 asal = data['asal']
@@ -111,19 +106,11 @@ tujuan = data['tujuan']
 start_node = find_nearest_node(asal, dataRute)
 goal_node = find_nearest_node(tujuan, dataRute)
 
-# Debug koordinat yang dipilih
-# print(f"Start Node: {start_node}")
-# print(f"Goal Node: {goal_node}")
-
 # Jalankan algoritma A*
 path = a_star(dataRute, start_node, goal_node)
 
 # Tampilkan hasil
 if path:
-    # print("Rute terpendek:")
     print(path)
-    # print("")
-    # for step in path:
-    #     print(f"Lat: {step['lat_rute_koordinat']}, Lng: {step['lng_rute_koordinat']}")
 else:
     print("Tidak ada rute yang ditemukan.")
