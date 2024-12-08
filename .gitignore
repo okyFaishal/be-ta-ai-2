@@ -1,0 +1,12 @@
+.env
+# public
+public/dokumen/*
+public/image/*
+public/file/*
+node_modules
+src/config/drop.js
+
+src/config/drop_eduk.js
+src/config/drop_rsa.js
+
+json/cuaca/*
