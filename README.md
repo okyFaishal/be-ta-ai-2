@@ -34,21 +34,7 @@ Proyek "Rute Anti Banjir" adalah sebuah aplikasi berbasis web yang dirancang unt
       # port
       PORT=8001 # bisa diganti sesuai keinginan
      ```
-6. Sinkronisasi database:
-   ```bash
-   node dbsync
-   ```
-7. Import data csv ke database:
-   dengan urutan
-   1. area_banjir
-   2. rute_jalur
-   3. wilayah
-   4. titik_area_banjir
-   5. rute_perjalanan
-   6. rute_koordinat
-   7. rute_jalur_koordinat
-   8. cuaca
-   9. rute_koordinat_banjir
+6. Export database yang ada di google drive
 8. Jalankan server backend:
    ```bash
    node index
