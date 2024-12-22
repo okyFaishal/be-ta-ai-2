@@ -39,7 +39,7 @@ Proyek "Rute Anti Banjir" adalah sebuah aplikasi berbasis web yang dirancang unt
    ```bash
    node index
    ```
-9. Buat folder / direktori dengan nama cuaca
+9. Buat folder json/cuaca
 10. Untuk bisa memproses rute 2, buka halaman website cuaca - banjir di set data, lalu click set data rute 2
 
 ## Fitur
