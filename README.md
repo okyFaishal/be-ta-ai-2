@@ -22,17 +22,17 @@ Proyek "Rute Anti Banjir" adalah sebuah aplikasi berbasis web yang dirancang unt
    - Buat file `.env` di root proyek.
    - Tambahkan variabel berikut dan sesuaikan jika diperlukan:
      ```env
-     DB_DIAL=mysql
+      DB_DIAL=mysql
 
-     # ---------- DB ----------
-     DB_USERNAME=nama_user
-     DB_PASSWORD=password_database
-     DB_NAME=nama_database
-     DB_HOST=nama_host
-     DB_PORT=port_database
+      # ---------- DB ----------
+      DB_USERNAME= # nama user
+      DB_PASSWORD= # password database
+      DB_NAME= # nama database
+      DB_HOST= # nama host
+      DB_PORT= # port database
 
-     # port
-     PORT=8001 # bisa diganti sesuai keinginan
+      # port
+      PORT=8001 # bisa diganti sesuai keinginan
      ```
 6. Sinkronisasi database:
    ```bash
