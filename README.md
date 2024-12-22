@@ -38,10 +38,17 @@ Proyek "Rute Anti Banjir" adalah sebuah aplikasi berbasis web yang dirancang unt
    ```bash
    node dbsync
    ```
-7. Import data SQL ke database:
-   ```bash
-   mysql -u sem -poknad192593 -h 156.67.216.52 -P 3306 ta_ai1 < /path/to/data.sql
-   ```
+7. Import data csv ke database:
+   dengan urutan
+   1. area_banjir
+   2. rute_jalur
+   3. wilayah
+   4. titik_area_banjir
+   5. rute_perjalanan
+   6. rute_koordinat
+   7. rute_jalur_koordinat
+   8. cuaca
+   9. rute_koordinat_banjir
 8. Jalankan server backend:
    ```bash
    node index
