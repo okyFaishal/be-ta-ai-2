@@ -9,4 +9,4 @@ src/config/drop.js
 src/config/drop_eduk.js
 src/config/drop_rsa.js
 
-json/cuaca/*
+# json/cuaca/*
