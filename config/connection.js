@@ -27,10 +27,10 @@ const sequelize = new Sequelize(
       typeCast: true,
     },
     pool: {
-      max: 1000,
+      max: 10,   // Maksimal 10 koneksi
       min: 0,
-      idle: 200000,
-      acquire: 1000000,
+      idle: 30000,  // Koneksi yang idle lebih dari 30 detik akan ditutup
+      acquire: 30000,  // Waktu maksimal untuk mengambil koneksi dari pool (30 detik)
     },
     timezone: '+07:00'
   }
