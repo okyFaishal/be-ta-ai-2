@@ -36,7 +36,7 @@ Proyek "Rute Anti Banjir" adalah sebuah aplikasi berbasis web yang dirancang unt
      ```
 6. Sinkronisasi database:
    ```bash
-   node scripts/dbsync
+   node dbsync
    ```
 7. Import data SQL ke database:
    ```bash
