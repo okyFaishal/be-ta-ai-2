@@ -11,13 +11,13 @@ Proyek "Rute Anti Banjir" adalah sebuah aplikasi berbasis web yang dirancang unt
    ```
 2. Masuk ke direktori proyek:
    ```bash
-   cd rute-anti-banjir-backend
+   cd be-ta-ai-2
    ```
 3. Install dependensi proyek:
    ```bash
    npm install
    ```
-4. Buat database MySQL dengan nama sesuai file `.env`.
+4. Buat database MySQL
 5. Konfigurasi file `.env`:
    - Buat file `.env` di root proyek.
    - Tambahkan variabel berikut dan sesuaikan jika diperlukan:
