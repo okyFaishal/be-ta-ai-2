@@ -11,7 +11,7 @@ Proyek "Rute Anti Banjir" adalah sebuah aplikasi berbasis web yang dirancang unt
    ```
 2. Masuk ke direktori proyek:
    ```bash
-   cd rute-anti-banjir-backend
+   cd be-ta-ai-2
    ```
 3. Install dependensi proyek:
    ```bash
